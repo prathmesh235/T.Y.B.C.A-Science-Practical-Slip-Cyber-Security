@@ -1,0 +1,45 @@
+DIFFERENCE BETWEEN VIRUS, WORM AND TROJAN HORSE
+Q. Differentiate between virus, worm, and Trojan horse. [10 Marks]
+
+INTRODUCTION
+Virus, worm and Trojan horse are three common types of malware (malicious software). All of them harm a system, but they differ in how they spread, how they activate and how they behave.
+
+1. VIRUS
+- A virus is a malicious program that attaches itself to a host file or program (such as .exe, document or boot sector).
+- It runs only when the infected file is executed by the user.
+- It replicates by inserting copies of itself into other files.
+- Spread: through infected files, pen drives, email attachments, downloads.
+- Effect: corrupts or deletes files, slows the system.
+- Example: CIH (Chernobyl), Melissa (macro virus).
+
+2. WORM
+- A worm is a standalone malicious program that does not need a host file.
+- It spreads automatically over a network without any user action.
+- It exploits vulnerabilities in operating systems or network services.
+- Spread: networks, email, vulnerable ports.
+- Effect: consumes bandwidth and memory, crashes servers, creates backdoors.
+- Example: ILOVEYOU, Code Red, WannaCry (ransomware worm).
+
+3. TROJAN HORSE
+- A Trojan horse is a program that looks like useful or genuine software but hides malicious code inside.
+- It does not replicate itself; the user is tricked into installing it.
+- Spread: fake software, cracked apps, malicious downloads, phishing links.
+- Effect: steals data and passwords, opens a backdoor, installs other malware, gives remote control to the attacker.
+- Example: Zeus (banking Trojan), Back Orifice.
+
+COMPARISON TABLE
+Basis            | Virus                     | Worm                       | Trojan Horse
+-----------------|---------------------------|----------------------------|----------------------------
+Host needed      | Yes, attaches to a file   | No, standalone             | No, disguised as real software
+Self-replication | Yes                       | Yes                        | No
+User action      | Needed to run infected file | Not needed (automatic)   | Needed (user installs it)
+Spread through   | Files, USB, email         | Networks                   | Fake / pirated software
+Main aim         | Corrupt or damage files   | Consume resources, spread  | Steal data, give backdoor access
+Speed of spread  | Slow to medium            | Very fast                  | Does not spread by itself
+Example          | CIH, Melissa              | Code Red, WannaCry         | Zeus, Back Orifice
+
+PREVENTION (COMMON)
+Install antivirus, keep OS and software updated, use a firewall, avoid pirated software and unknown email attachments, take regular backups.
+
+CONCLUSION
+A virus needs a host and user action, a worm spreads by itself over networks, and a Trojan horse tricks the user by pretending to be genuine software.
